@@ -8,7 +8,6 @@ SAMPLE INPUT 2:
 ab
 SAMPLE OUTPUT 2:
 a
-
 */
 
 import java.util.Scanner;
