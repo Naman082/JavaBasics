@@ -19,7 +19,7 @@ public class HighestOccuringCharacter {
 		int maxFreq = 0;
         
 		for(int i=0;i<str.length();i++) {
-			++frequency[str.charAt(i)];
+			frequency[str.charAt(i)]++;
 			maxFreq = Math.max(maxFreq, frequency[str.charAt(i)]); // figuring out the max freq
 		}
         
